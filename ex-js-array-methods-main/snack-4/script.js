@@ -5,9 +5,21 @@ const posts = [
   { author: 'Enrico', date: '09/12/2021', content: 'lorem ipsum...' },
 ]
 
-const authorName = []
 
-for (let i = 0; i < posts.length; i++) {
+const authors = posts.map(function(post){
+
+  return post.author;
+});
+
+console.log(authors);
+
+
+
+
+
+
+
+/*for (let i = 0; i < posts.length; i++) {
   const element = posts[i];
 
  
@@ -18,7 +30,7 @@ for (let i = 0; i < posts.length; i++) {
   console.log(authorName);
 
 
-}
+}*/
 
 
 
